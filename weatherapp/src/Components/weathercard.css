@@ -1,0 +1,67 @@
+.weather_card {
+  background-color: rgb(255, 255, 255);
+  width: 30vw;
+  height: 35vh;
+  border-radius: 12px;
+  /* display: flex;
+    flex-direction: column; */
+}
+.weatherIcon {
+  background-color: rgb(248, 245, 245);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100px;
+  font-size: 38px;
+}
+.wi {
+  font-size: 25px;
+}
+.main_wi{
+  font-size: 50px !important;
+}
+.weather_card_details {
+  display: flex;
+  justify-content: space-between;
+}
+.dateDetails {
+  width: 100px;
+}
+.weatherInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #121212;
+  color: white;
+  flex: 1;
+}
+.temp_place_info {
+}
+.date {
+  flex: 0.3;
+  background-color: #6ea5f1;
+}
+.sunsetTime_details {
+  display: flex;
+  flex-direction: row;
+}
+.extra_weather_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px;
+    background: #d2e5eb;
+    height: 55px;
+}
+.sunset {
+  display: flex;
+  flex-direction: column;
+}
+
+/* error message */
+.error_message{
+  color: white;
+}
